@@ -63,4 +63,9 @@ set mouse=a
 let g:airline_theme='jellybeans'
 set t_Co=256
 
+noremap <silent> <C-l> <c-w>l
+noremap <silent> <C-h> <c-w>h
+noremap <silent> <C-k> <c-w>k
+noremap <silent> <C-j> <c-w>j
+
 au BufNewFile,BufRead *.launch set filetype=xml
