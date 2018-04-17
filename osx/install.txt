@@ -1,0 +1,2 @@
+muCommander
+iTerm2
