@@ -1,0 +1,24 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "welcomePage",
+    "git.enableSmartCommit": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/*.py~": true
+    },
+    "explorer.confirmDelete": false,
+    "python.linting.pylintEnabled": false,
+    "explorer.confirmDragAndDrop": false
+}
