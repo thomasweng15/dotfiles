@@ -10,7 +10,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'scrooloose/nerdtree'
+""Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'christoomey/vim-tmux-navigator'
@@ -30,12 +30,14 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-autocmd vimenter * NERDTree
+""autocmd vimenter * NERDTree
 " Go to previous (last accessed) window.
-autocmd VimEnter * wincmd p
+""autocmd VimEnter * wincmd p
 
 
 "" General
+:imap jk <Esc> 
+
 "colorscheme jellybeans
 set number
 set showmatch
