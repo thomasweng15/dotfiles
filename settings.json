@@ -20,5 +20,11 @@
     },
     "explorer.confirmDelete": false,
     "python.linting.pylintEnabled": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
 }
