@@ -63,7 +63,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git alias-tips autojump
+  git alias-tips
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -117,5 +117,6 @@ USER=``
 export PATH="$HOME/.cargo/bin:$PATH"
 alias matlab='/Applications/MATLAB_R2018a.app/bin/matlab -nodesktop'
 alias cc='ssh tweng@128.2.178.189'
+[[ -s /usr0/home/tweng/.autojump/etc/profile.d/autojump.sh ]] && source /usr0/home/tweng/.autojump/etc/profile.d/autojump.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /Users/thomas/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
