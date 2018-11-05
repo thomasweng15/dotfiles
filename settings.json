@@ -1,30 +1,42 @@
 {
-    "git.ignoreLegacyWarning": true,
-    "window.zoomLevel": 0,
-    "workbench.startupEditor": "welcomePage",
     "git.enableSmartCommit": true,
     "editor.renderWhitespace": "all",
+    "window.zoomLevel": 1,
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
-    "python.disablePromptForFeatures": [
-        "pylint"
-    ],
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/*.pyc": true,
-        "**/*.py~": true
+        "**/*.pyc": true
     },
     "explorer.confirmDelete": false,
-    "python.linting.pylintEnabled": false,
-    "explorer.confirmDragAndDrop": false,
+    "vim.statusBarColorControl": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
             "after": ["<Esc>"]
         }
     ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+    "explorer.confirmDragAndDrop": false,
+    "debug.inlineValues": true,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "sync.gist": "cc66bdd43d7ce7a1bea45e72af5ea000",
+    "sync.quietSync": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "\"Menlo for Powerline\""
 }
