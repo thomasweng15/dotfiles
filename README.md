@@ -1,5 +1,7 @@
 # setup
 
+See install.sh script for partial automation of setup
+
 ## zsh
 
 `sudo apt-get install powerline fonts-powerline`
