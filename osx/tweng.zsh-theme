@@ -1,7 +1,7 @@
 # TWENG ZSH Theme
 
 PROMPT='
-${_current_dir}$(git_prompt_info) %{$fg[$CARETCOLOR]%}$%{$resetcolor%} '
+${_current_dir}$(git_prompt_info) %{$fg[$CARETCOLOR]%}$(random_emoji animals)%{$resetcolor%} '
 
 local _current_dir="%{$fg_bold[blue]%}%3~%{$reset_color%} "
 	
